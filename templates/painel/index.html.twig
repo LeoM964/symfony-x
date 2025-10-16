@@ -1,20 +1,15 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello PainelController!{% endblock %}
+{% block title %}MS Code - Projeto Estoque 2025{% endblock %}
 
 {% block body %}
-<style>
-    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
-    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
-</style>
 
-<div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
+  {% include "app/navbar.html.twig" %}
+  <main>
+    
+    <div class="container py-5">
+      <!-- Conteúdo da página aqui -->
+    </div>
+  </main> 
 
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code>/home/aluno-ms/mscode/symfony/projeto-symfony/src/Controller/PainelController.php</code></li>
-        <li>Your template at <code>/home/aluno-ms/mscode/symfony/projeto-symfony/templates/painel/index.html.twig</code></li>
-    </ul>
-</div>
 {% endblock %}
